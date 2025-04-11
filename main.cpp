@@ -25,7 +25,7 @@ int main() {
     lua_setglobal(L, "helloworld");
     
     // Выполняем Lua скрипт
-    luaL_dofile(L, "script.lua")
+    luaL_dofile(L, "script.lua");
     
     lua_close(L);
     return 0;
